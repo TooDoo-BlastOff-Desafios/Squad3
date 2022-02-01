@@ -1,0 +1,214 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".view.CreateAccountScreen"
+    android:background="@color/white">
+    <androidx.appcompat.widget.LinearLayoutCompat
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical">
+
+        <LinearLayout
+            android:layout_marginTop="12dp"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="26dp"
+                android:src="@drawable/ic_vectorf_icon"
+                tools:ignore="ContentDescription" />
+
+            <ImageView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:src="@drawable/ic_vectori_icon"
+                android:layout_marginStart="2dp"
+                tools:ignore="ContentDescription" />
+
+        </LinearLayout>
+
+        <TextView
+            android:id="@+id/create_account_head"
+            android:layout_width="380dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="24dp"
+            android:fontFamily="@font/source_sans_pro"
+            android:text="@string/create_new_account_txt"
+            android:textColor="@color/head_color"
+            android:textSize="33sp" />
+        <TextView
+            android:id="@+id/email_txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:text="@string/email"
+            android:textColor="#515355"/>
+        <EditText
+            android:id="@+id/email_input"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bar"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/cpf_txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:text="@string/cpf"
+            android:textColor="@color/letter_color"/>
+
+        <EditText
+            android:id="@+id/cpf_input"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bar"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/password_txt"
+            android:layout_width="150dp"
+            android:layout_height="24dp"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:text="@string/password"
+            android:textColor="@color/letter_color"/>
+
+        <EditText
+            android:id="@+id/password_input"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bar"
+            android:textColor="@color/black"/>
+
+        <TextView
+            android:id="@+id/country_txt"
+            android:layout_width="150dp"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:text="@string/country_or_region"
+            android:textColor="@color/letter_color"/>
+
+        <EditText
+            android:id="@+id/country_input"
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:layout_marginTop="10dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_gravity="center"
+            android:background="@drawable/input_bar"
+            android:textColor="@color/black"/>
+
+        <androidx.constraintlayout.widget.ConstraintLayout
+            android:layout_width="match_parent"
+            android:layout_height="100dp">
+
+            <TextView
+                android:id="@+id/state_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="40dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/state"
+                android:textColor="@color/letter_color"
+                app:layout_constraintEnd_toStartOf="@+id/city_txt"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/state_input"
+                android:layout_width="152dp"
+                android:layout_height="48dp"
+                android:layout_marginStart="24dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bar"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toStartOf="@+id/city_input"
+                app:layout_constraintHorizontal_bias="0.0"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/state_txt"
+                app:layout_constraintVertical_bias="0.466" />
+
+            <TextView
+                android:id="@+id/city_txt"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginStart="140dp"
+                android:layout_marginTop="16dp"
+                android:text="@string/city"
+                android:textColor="@color/letter_color"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintStart_toStartOf="parent"
+                app:layout_constraintTop_toTopOf="parent" />
+
+            <EditText
+                android:id="@+id/city_input"
+                android:layout_width="152dp"
+                android:layout_height="48dp"
+                android:layout_marginEnd="24dp"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/input_bar"
+                android:textColor="@color/black"
+                app:layout_constraintBottom_toBottomOf="parent"
+                app:layout_constraintEnd_toEndOf="parent"
+                app:layout_constraintTop_toBottomOf="@id/city_txt"
+                app:layout_constraintVertical_bias="0.466" />
+        </androidx.constraintlayout.widget.ConstraintLayout>
+
+        <TextView
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:textColor="@color/letter_color"
+            android:layout_marginTop="20dp"
+            android:layout_marginStart="40dp"
+            android:text="@string/street"/>
+
+        <EditText
+            android:layout_width="380dp"
+            android:layout_height="48dp"
+            android:background="@drawable/input_bar"
+            android:textColor="@color/black"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_marginTop="10dp"
+            android:layout_gravity="center"/>
+
+        <Button
+            android:id="@+id/register_btn"
+            android:layout_width="380dp"
+            android:layout_height="50dp"
+            android:layout_marginStart="24dp"
+            android:layout_marginEnd="24dp"
+            android:layout_gravity="center"
+            android:layout_marginTop="20dp"
+            android:backgroundTint="@color/purple"
+            android:text="@string/create_account"/>
+
+    </androidx.appcompat.widget.LinearLayoutCompat>
+
+</ScrollView>

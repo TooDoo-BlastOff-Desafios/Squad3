@@ -1,0 +1,33 @@
+<resources>
+    <string name="app_name">FiPay E-Wallet</string>
+
+    <!-- Splash screen strings -->
+    <string name="welcome_text">Welcome</string>
+    <string name="app_description">FiPay: The best multifunctional digital E-Wallet of this century.</string>
+    <string name="sign_txt">Sign in</string>
+    <string name="create_account_txt">Create an account</string>
+
+    <!-- Signin screen strings -->
+
+    <string name="title_txt">FI</string>
+    <string name="sign_head">Sign in to <font color="#6D5FFD">FiPay</font> </string>
+    <string name="email_or_phone">Email or Phone Number<sup><font color="#DA1414">*</font></sup></string>
+    <string name="password">Password<sup><font color="#DA1414">*</font></sup></string>
+    <string name="remember_me">Remember me</string>
+    <string name="forgot_password">Forgot the password?</string>
+    <string name="no_account">Don’t have an account? </string>
+    <string name="sign_up"><font color="#6D5FFD">Sign up</font></string>
+
+    <!-- Create Account String -->
+    <string name="create_new_account_txt">Create a new account</string>
+    <string name="cpf">CPF<sup><font color="#DA1414">*</font></sup></string>
+    <string name="full_name">Full Name<sup><font color="#DA1414">*</font></sup></string>
+    <string name="email">E-mail<sup><font color="#DA1414">*</font></sup></string>
+    <string name="country_or_region">Country/Region<sup><font color="#DA1414">*</font></sup></string>
+    <string name="street">Street<sup><font color="#DA1414">*</font></sup></string>
+    <string name="state">State<sup><font color="#DA1414">*</font></sup></string>
+    <string name="city">City<sup><font color="#DA1414">*</font></sup></string>
+    <string name="create_account">Create Account</string>
+
+
+</resources>

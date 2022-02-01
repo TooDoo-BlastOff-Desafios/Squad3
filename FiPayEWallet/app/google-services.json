@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "119990058527",
+    "project_id": "fibank-a85e7",
+    "storage_bucket": "fibank-a85e7.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:119990058527:android:601371e81a04fe651a5f2a",
+        "android_client_info": {
+          "package_name": "app.daazi.aluno.fipaye_wallet"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "119990058527-p6bkaabapm28g5tfebi5583hnit53tun.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyDkrC0JRv3ldDuxXK0eb_-0t2iRdFirnuo"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "119990058527-p6bkaabapm28g5tfebi5583hnit53tun.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}
